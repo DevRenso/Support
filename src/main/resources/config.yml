@@ -1,0 +1,19 @@
+HOTBARS: 3
+INVENTORY-NAME: '&dPartner &7Support'
+FILL-ITEM:
+  MATERIAL: STAINED_GLASS_PANE
+  DATA: 0
+PARTNERS:
+  DEVRENSO: #All names in Up Case
+    VOTES: 1
+    ENABLE: true
+    SLOT: 14
+    SKULL-NAME: DevRenso
+    DISPLAYNAME: '&7[&dPartner&7] &7DevRenso &7'
+    LORE:
+      - '&7Votes: &a%votes%'
+    COMMANDS:
+      - cr givekey %player% Elite 1
+MESSAGES:
+  GIVE-PARTNER-REWARDS: '&aThanks for voting for &d%displayName%'
+  ALREADY-VOTE: '&cYou already vote for one &dpartner!'

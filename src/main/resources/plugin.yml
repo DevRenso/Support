@@ -1,0 +1,6 @@
+name: SupportPlugin
+version: ${project.version}
+main: dev.deqrenso.supportplugin.SupportPlugin
+authors: [DevRenso]
+commands:
+  support:
